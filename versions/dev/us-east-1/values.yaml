@@ -2,6 +2,10 @@ configMap:
   config_values:
     defaultAgentVersion: 11.0.0.0
     defaultManagerVersion: 10.1.2024.1
+    msaVersionOverrides:
+      '81010001': 11.0.1.1
+      '81010002': 12.0.0.1
+      '81010003': 11.1.2.5
 image:
   pullPolicy: IfNotPresent
   repository: redon/agent-watcher
