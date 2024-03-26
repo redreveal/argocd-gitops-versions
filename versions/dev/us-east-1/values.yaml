@@ -3,7 +3,7 @@ configMap:
     defaultAgentVersion: 11.0.0.001
     defaultManagerVersion: 10.1.2024.1
     msaVersionOverrides:
-      '92510001': 11.0.0.004
+      '92510001': 11.0.0.009
       '92512064': 11.0.0.004
 image:
   pullPolicy: IfNotPresent
