@@ -5,7 +5,7 @@ configMap:
     msaVersionOverrides:
       '92510001':
         agentVersion: 2024.3.0.429
-      '92512064': 11.0.0.004
+      '92512064': 11.0.0.009
 image:
   pullPolicy: IfNotPresent
   repository: redon/agent-watcher
