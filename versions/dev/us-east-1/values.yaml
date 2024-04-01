@@ -5,7 +5,6 @@ configMap:
     msaVersionOverrides:
       '92510001':
         agentVersion: 2024.3.0.429
-        managerVersion: 10.2.2025.2
       '92512064': 11.0.0.004
 image:
   pullPolicy: IfNotPresent
