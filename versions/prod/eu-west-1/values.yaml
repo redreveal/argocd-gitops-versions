@@ -1,3 +1,9 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: redon/agent-watcher
+  tag: latest
+replicaCount: 1
+
 configMap:
   config_values:
     default_agent_version: 11.0.0.0
