@@ -1,4 +1,4 @@
 configMap:
   config_values:
-    defaultAgentVersion: 11.0.0.040
+    defaultAgentVersion: 11.0.0.039
     defaultManagerVersion: 10.1.2024.1
