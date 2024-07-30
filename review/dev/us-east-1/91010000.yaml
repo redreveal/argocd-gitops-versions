@@ -1,1 +1,4 @@
-default_all: 2024.7.29\nmsas:\n   91010000:\n          search: 2024.7.28
+default_all: 2024.7.29
+msas:
+  91010000:
+    search: 2024.7.18
