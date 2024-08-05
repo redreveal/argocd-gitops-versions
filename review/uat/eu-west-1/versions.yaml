@@ -10,9 +10,9 @@ defaults:
   reveal_ai:
     default: 2024.7.19
 msas:
-  91010000:
+  92510000:
     review:
-      search: 2024.7.18
-  91010001:
+      search: 2024.7.15
+  92510001:
     review:
       search: 2024.7.12
