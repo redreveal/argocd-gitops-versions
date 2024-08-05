@@ -1,0 +1,18 @@
+# Review GitOps
+defaults:
+  processing:
+    default: 2024.7.20
+  review:
+    default: 2024.7.19
+    services:
+      search: 2024.7.32
+      search_new: 2024.7.1
+  reveal_ai:
+    default: 2024.7.19
+msas:
+  91010000:
+    review:
+      search: 2024.7.18
+  91010001:
+    review:
+      search: 2024.7.14
