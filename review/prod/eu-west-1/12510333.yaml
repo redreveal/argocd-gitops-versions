@@ -1,1 +1,4 @@
-./default_values.yaml
+services:
+  search:
+    tag: review:
+  search: 2024.7.13
