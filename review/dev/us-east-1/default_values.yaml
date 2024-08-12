@@ -1,9 +1,0 @@
-services:
-  search:
-    tag: 2024.7.16
-  search_new:
-    tag: 2024.7.1
-versions:
-  default_processing: 2024.7.20
-  default_reveal_ai: 2024.7.19
-  default_review: 2024.7.19
