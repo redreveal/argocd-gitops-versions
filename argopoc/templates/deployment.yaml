@@ -1,0 +1,25 @@
+{{- $externalValues := mergeOverwrite .Values.external .Values | fromYaml }}
+{{- range $key, $value := .Values.review.review_services }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ $value.name }}
+  labels:
+    app: {{ $value.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ $value.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ $value.name }}
+    spec:
+      containers:
+      - name: {{ $value.name }}
+        image: {{ $value.image }}:{{ $externalValues.services[$key].tag | default $externalValues.versions["default_" $key] | default $value.tag }}
+        ports:
+        - containerPort: {{ $value.containerPort }}
+{{- end }}

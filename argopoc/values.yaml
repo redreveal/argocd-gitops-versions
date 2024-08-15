@@ -1,0 +1,21 @@
+external:
+  services: {}
+  versions: {}
+
+review:
+  review_services:
+    nginx-service:
+      image: "redon/argopoc"
+      name: "nginx-service"
+      tag: "latest"
+      containerPort: 80
+    app-service:
+      image: "redon/argopoc-app"
+      name: "app-service"
+      tag: "latest"
+      containerPort: 8080
+    db-service:
+      image: "redon/argopoc-db"
+      name: "db-service"
+      tag: "latest"
+      containerPort: 5432

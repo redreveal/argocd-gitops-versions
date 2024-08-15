@@ -1,0 +1,12 @@
+# services-and-versions.yaml
+services:
+  nginx-service:
+    tag: "2024.7.32"
+  app-service:
+    tag: "2024.7.32"
+  db-service:
+    tag: "2024.7.32"
+versions:
+  default_nginx-service: "latest"
+  default_app-service: "latest"
+  default_db-service: "latest"
