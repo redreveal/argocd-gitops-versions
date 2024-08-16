@@ -1,15 +1,15 @@
+{{- range $key, $value := .Values.review.review_services }}
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{ include "argopoc.fullname" . }}-test-connection"
+  name: "{{ $value.name }}-test-connection"
   labels:
-    {{- include "argopoc.labels" . | nindent 4 }}
-  annotations:
-    "helm.sh/hook": test
+    app.kubernetes.io/instance: "{{ $value.name }}"
+    app.kubernetes.io/name: "test-connection"
 spec:
   containers:
-    - name: wget
-      image: busybox
-      command: ['wget']
-      args: ['{{ include "argopoc.fullname" . }}:{{ .Values.service.port }}']
-  restartPolicy: Never
+    - name: "{{ $value.name }}-curl"
+      image: curlimages/curl:7.71.1
+      command: ['curl']
+      args: ["http://{{ $value.name }}:{{ $value.containerPort | default 80 }}"]
+{{- end }}
