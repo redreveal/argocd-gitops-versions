@@ -5,6 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ $value.name }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ $value.name }}
 spec:

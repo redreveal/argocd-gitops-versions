@@ -4,18 +4,28 @@ external:
 
 review:
   review_services:
-    nginx-service:
-      image: "redon/argopoc"
-      name: "nginx-service"
+    assignmentstatus:
+      image: "redon/assignmentstatus"
+      name: "assignmentstatus"
       tag: "latest"
       containerPort: 80
-    app-service:
-      image: "redon/argopoc-app"
-      name: "app-service"
+    assignment:
+      image: "redon/assignment"
+      name: "assignment"
       tag: "latest"
-      containerPort: 8080
-    db-service:
-      image: "redon/argopoc-db"
-      name: "db-service"
+      containerPort: 80
+    bulktag:
+      image: "redon/bulktag"
+      name: "bulktag"
       tag: "latest"
-      containerPort: 5432
+      containerPort: 80
+    documentloader:
+      image: "redon/documentloader"
+      name: "documentloader"
+      tag: "latest"
+      containerPort: 80
+    export:
+      image: "redon/export"
+      name: "export"
+      tag: "latest"
+      containerPort: 80
