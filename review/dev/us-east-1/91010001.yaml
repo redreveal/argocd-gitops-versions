@@ -1,6 +1,6 @@
 services:
   search:
-    tag: 2024.7.39
+    tag: 2024.7.41
   search_new:
     tag: 2024.7.1
 versions:
