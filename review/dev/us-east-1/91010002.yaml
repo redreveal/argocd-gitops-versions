@@ -2,7 +2,7 @@ services:
   assignment:
     tag: 2024.7.1
   search:
-    tag: 2024.7.13
+    tag: 2024.7.14
 versions:
   default_processing: 2024.7.20
   default_reveal_ai: 2024.7.22
