@@ -83,7 +83,7 @@ spec:
     spec:
       containers:
       - name: assignment
-        image: redon/assignment:2024.7.31
+        image: redon/assignment:2024.7.1
         ports:
         - containerPort: 80
 ---
