@@ -1,6 +1,8 @@
 services:
   assignment:
     tag: 2024.7.1
+  default:
+    tag: emay
   documentloader:
     tag: latest
   export:
