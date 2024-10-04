@@ -1,8 +1,6 @@
 services:
   assignment:
     tag: 2024.7.1
-  default:
-    tag: emay
   documentloader:
     tag: latest
   export:
@@ -12,4 +10,4 @@ services:
 versions:
   default_processing: 2024.7.20
   default_reveal_ai: 2024.7.22
-  default_review: 2024.7.31
+  default_review: emay

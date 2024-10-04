@@ -104,7 +104,7 @@ spec:
     spec:
       containers:
       - name: assignmentstatus
-        image: redon/assignmentstatus:2024.7.31
+        image: redon/assignmentstatus:emay
         ports:
         - containerPort: 80
 ---
@@ -125,7 +125,7 @@ spec:
     spec:
       containers:
       - name: bulktag
-        image: redon/bulktag:2024.7.31
+        image: redon/bulktag:emay
         ports:
         - containerPort: 80
 ---
