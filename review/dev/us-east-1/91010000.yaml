@@ -1,6 +1,6 @@
 services:
   assignment:
-    tag: missingtag
+    tag: latest
   documentloader:
     tag: latest
   export:
