@@ -1,11 +1,13 @@
 configMap:
   config_values:
     defaultAgentVersion: 11.0.0.040
+    defaultDatabaseVersion: 11.0.0.040
     defaultManagerVersion: 10.1.2024.1
     msaVersionOverrides:
       '91010007':
-        agentVersion: 2024.8.906.864
-        managerVersion: 2024.8.906.864
+        agentVersion: 2024.3.112.454
+        databaseVersion: 11.0.0.039
+        managerVersion: 2024.3.112.454
       '92510003': 11.0.0.039
       '92510004': 11.0.0.039
       '92516257': 11.0.0.038
