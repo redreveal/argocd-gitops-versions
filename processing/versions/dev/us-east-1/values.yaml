@@ -4,7 +4,8 @@ configMap:
     defaultDatabaseVersion: 11.0.0.040
     defaultManagerVersion: 10.1.2024.1
     msaVersionOverrides:
-      '1001': 1.0.0
+      '1001':
+        databaseVersion: 1.0.0
       '91010007':
         agentVersion: 2024.3.112.454
         databaseVersion: 11.0.0.039
