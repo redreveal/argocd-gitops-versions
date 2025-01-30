@@ -1,13 +1,13 @@
 services:
   assignment:
-    tag: latest
+    tag: 2024.7.1
   documentloader:
     tag: latest
   export:
     tag: latest
   search:
-    tag: latest
+    tag: 2024.7.125
 versions:
   default_processing: 2024.7.20
   default_reveal_ai: 2024.7.22
-  default_review: 2024.7.32
+  default_review: emay
