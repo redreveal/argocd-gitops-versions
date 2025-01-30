@@ -6,4 +6,4 @@ services:
 versions:
   default_processing: 2024.7.20
   default_reveal_ai: 2024.7.22
-  default_review: 2024.7.42
+  default_review: 2024.7.43
